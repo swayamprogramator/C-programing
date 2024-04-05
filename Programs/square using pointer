@@ -1,0 +1,15 @@
+#include<stdio.h>
+void square(int* p);
+int main()
+{
+	int num=4;
+	square(&num);
+	return 0;
+
+}
+
+void square(int* p)
+{
+	*p=(*p)*(*p);
+	printf("square = %d\n",*p);
+}
