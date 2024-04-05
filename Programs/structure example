@@ -1,0 +1,33 @@
+struct student
+{
+	char name[100];
+	int roll;
+	float cgpa;
+};
+int main()
+{
+	struct student s1={"Harsh Sharma",24,9.9};
+	printf("%s\n",s1.name);
+	printf("%d\n",s1.roll);
+	printf("%f\n",s1.cgpa);
+	printf("\n");
+
+	struct student s2={"Abhinav Shukla",03,9.50};
+	printf("%s\n",s2.name);
+	printf("%d\n",s2.roll);
+	printf("%f\n",s2.cgpa);
+	printf("\n");
+
+	struct student s3={"Arnav Jha",11,9.55};
+	printf("%s\n",s3.name);
+	printf("%d\n",s3.roll);
+	printf("%f\n",s3.cgpa);
+	printf("\n");
+
+	struct student s4={"Hridyesh Kumar",27,9.45}; 
+	printf("%s\n",s4.name);
+	printf("%d\n",s4.roll);
+	printf("%f\n",s4.cgpa);
+	printf("\n");
+	return 0;
+}
