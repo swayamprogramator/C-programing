@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(int argc,char *argv[]){
+	if(argc!=3)
+	{
+		printf("Only two numbers are allowed");
+		return 1;
+	}
+	printf("number of argument:%d\n",argc);
+	int a=atoi(argv[1]);
+	int b=atoi(argv[2]);
+	printf("sum of given input is:%d",a+b);
+	return 0;
+
+}
