@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	char c[]="GATE2012";
+	char *p=c;
+	printf("given element is :\n");
+	printf("%s",p+p[3]-p[1]);
+	return 0;
+}
