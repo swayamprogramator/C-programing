@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+int main()
+{
+	int n,j=1;
+	
+	while (j>0)
+	{
+		printf("Enter any number:");
+		scanf("%d",&n);
+		if (n%2 != 0)
+		{
+			break;
+		}
+	}
+	printf("End");
+	return 0;
+	
+}
