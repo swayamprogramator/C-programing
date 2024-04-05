@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main()
+{
+	int i,j,n,arr[7]={0};
+	printf("Enter no. of throw:");
+	scanf("%d",&n);
+	srand(time(0));
+	for(i=0;i<n;i++)
+	{
+		j=rand()%6;
+		j=j+1;
+		arr[j]++;
+	}
+	for(i=1;i<=6;i++)
+	{
+		printf("%d came out for %d times\n",i,arr[i]);
+	}
+	return 0;
+}
